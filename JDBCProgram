@@ -3,7 +3,7 @@ package Jan27_2025;
 import java.sql.*;
 import java.util.Scanner;
 
-public class StudentInformation {
+public class JDBCExample {
 
     static final String JDBC_URL = "jdbc:mysql://localhost:3306/Sameer_32216";
     static final String USERNAME = "root";
