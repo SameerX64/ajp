@@ -1,0 +1,64 @@
+<!-- 1. index.html -->
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Login Form</title> 
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #f4f4f9; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        } 
+        .form-container { 
+            background: #fff; 
+            padding: 20px 30px; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        } 
+        .form-container h2 { 
+            margin-bottom: 20px; 
+            color: #333; 
+        } 
+        .form-container label { 
+            display: block; 
+            margin-bottom: 5px; 
+            color: #555; 
+        } 
+        .form-container input { 
+            width: 100%; 
+            padding: 10px; 
+            margin-bottom: 15px; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+        } 
+        .form-container button { 
+            background-color: #007bff; 
+            color: white; 
+            padding: 10px 15px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-size: 16px; 
+        } 
+        .form-container button:hover { 
+            background-color: #0056b3; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <div class="form-container"> 
+        <h2>Login Form</h2> 
+        <form action="ClientSideServlet07" method="post"> 
+            <label for="username">Username:</label> 
+            <input type="text" id="username" name="username" required> 
+            <label for="password">Password:</label> 
+            <input type="password" id="password" name="password" required> 
+            <button type="submit">Submit</button> 
+        </form> 
+    </div> 
+</body> 
+</html>
